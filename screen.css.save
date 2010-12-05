@@ -1,0 +1,201 @@
+/* screen.css */
+
+body{
+background:#95A09A;   /*grey of Great Wall*/
+font-family:Verdana, sans-serif;}
+
+#container{
+width:900px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:0;
+background:white;
+}
+
+/* Skip to navigation */
+#accessibility{ text-align: left; } 
+#accessibility a { position: absolute; left: -10000px;  }
+	
+/* Header */
+
+#header{
+height:150px;
+width:500px;
+background:#9AC0CD;
+float:left;
+}
+
+#header h1{
+color:white;
+margin-left:15px;
+font-size:2em;
+}
+
+#header ul{
+list-style-type: none;
+padding-left:15px;
+color:white;
+}
+
+/* navigation */
+
+#navigation{
+height:10em;
+width:900px;
+background-color:#9AC0CD;
+}
+
+
+#navigation li{
+list-style-type:none;
+position:relative;
+float:left;
+padding-right:15px;
+margin-top:0.3em;
+text-transform:uppercase;
+}
+
+#navigation li a{
+text-decoration:none;
+color:white;
+}
+
+#navigation li a:hover{
+text-decoration:underline;
+}
+
+#navigation li ul{
+position: absolute;
+padding-left:1px;
+font-size:1em;
+display:none;
+}
+
+#navigation li:hover ul{
+display:block;
+position: absolute;
+padding-left:1px;
+font-size:0.7em;
+}
+
+#navigation .selected a{
+color: #838B8B;
+}
+
+/* portnav */
+
+#portnav{
+margin:8px 0 8px 0;
+height:1.2em;
+width:420px;
+background-color:#FFB30F;  
+}
+
+#portnav li{
+float:left;
+list-style-type:none;}
+
+#portnav .selected a{
+color: #838B8B;
+font-weight:bold;
+}
+
+
+#portnav li a{
+display:block;
+padding:0 10px;
+font-size:0.8em;
+font-weight:normal;
+text-transform:uppercase;
+text-decoration:none;
+color:white;
+}
+
+#portnav li+li{
+border-left:1px solid white;
+color:white;
+}
+
+#portnav li a:hover{
+text-decoration:underline;
+}
+
+/* content */
+#content{
+min-height:400px;
+}
+
+.img-proj{
+width:400px;
+color:#838B8B;
+text-align:left;
+margin:0 0 10px 10px;
+padding-left:15px;
+background-color:#FFCC66;
+border: 0.6em solid #FFB30F;
+float:left;
+-moz-border-radius:15px;
+border-radius:15px;
+}
+
+img{
+border:0.8em solid white;
+width:300px;
+height:300px;
+margin:15px 0 0 10px;
+}
+
+
+h2{
+clear:both;
+text-align:left;
+margin:15px 0 15px 15px;
+padding-left:15px;
+font-size:1em;
+font-weight:bold;
+background-color:#FFCC66;
+color:#838B8B;
+width:375px;
+border:0.2em solid #FFCC66;
+-moz-border-radius:15px;
+border-radius:15px;
+}
+
+h3{font-size:1em;
+margin-left:15px;
+}
+
+p{font-size:1em;}
+
+#content .experience,
+ ul.position{
+  list-style-type:none;}
+
+.date{
+float:left;
+margin-left:15px;}
+
+.school,
+.degree,
+.employer{
+margin-left:180px;}
+
+.position{margin-left:180px;}
+
+.experience li a{
+text-decoration:none;
+color:#0B3D92;
+}
+
+.list-resume{
+margin-left:30px;
+list-style-type:button;
+}
+.
+
+.experience li a:hover{text-decoration:underline;}
+
+/* footer */
+#footer{
+text-align: right;
+}

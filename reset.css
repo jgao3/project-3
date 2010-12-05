@@ -1,0 +1,27 @@
+/*
+<!-- Source File -->
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.2r1/build/reset-fonts-grids/reset-fonts-grids.css">
+*/
+
+body, h1, h2, h3, ul, li, p{ 
+	margin:0;
+	padding:0;
+}
+
+img {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+/* font */
+
+h1,h2,h3 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+ol,ul {
+	list-style:none;
+}
+
